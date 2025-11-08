@@ -1,10 +1,10 @@
 # Image → Art Gallery Recommender 🎨
 
-A small Gradio app that recommends artworks from a curated gallery (9 × 8 = 72 paintings) based on a query image. Upload a photo (or use your webcam) and the app finds visually similar paintings using an embedding model + FAISS nearest-neighbour search.
+A small Gradio app that recommends artworks from a curated gallery (72 paintings) based on a query image. Upload a photo (or use your webcam) and the app finds visually similar paintings using an embedding model + FAISS nearest-neighbour search.
 
 Key points
 - Gallery size: 72 artworks
-- Entry point: `app.py` (launches the Gradio UI)
+- Main file: `app.py` (launches the Gradio UI)
 - Uses: PyTorch model for embeddings, FAISS for fast similarity search, and a lightweight dataset of artwork images/URLs
 
 ## Features
@@ -56,6 +56,7 @@ This will start a Gradio UI (by default served on http://localhost:7860). The ap
 - If the UI isn't visible, check the terminal output for the Gradio URL (usually http://localhost:7860).
 
 ## License & credits
-Made by Russell de Roeper in partnership with Oscore.io
+Made by Russell de Roeper in partnership with Oscore.io. 
+https://oscore.io/
 
-If you reuse parts of this code, please credit the author.
+
